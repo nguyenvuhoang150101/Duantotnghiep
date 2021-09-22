@@ -1,0 +1,87 @@
+{"properties": [
+  {
+    "name": "app.dao.ddl-generation",
+    "type": "java.lang.String",
+    "description": "A description for 'dao.ddl-generation'",
+    "values": [
+      {
+        "value": "none",
+        "description": "Disable DDL handling."
+      },
+      {
+        "value": "drop-tables",
+        "description": "Drop only"
+      },
+      {
+        "value": "create-tables",
+        "description": "Create only"
+      },
+      {
+        "value": "drop-and-create-tables",
+        "description": "Drop and Create tables"
+      },
+      {
+        "value": "create-or-extend-tables",
+        "description": "Create or Extend tables"
+      }
+    ]
+  },
+  {
+    "name": "app.api.allowed-origins",
+    "type": "java.lang.String",
+    "description": "A description for 'api.allowedOrigins'"
+  },
+  {
+    "name": "app.debug.trace-exception",
+    "type": "java.lang.Boolean",
+    "description": "A description for 'api.security.traceException'"
+  },
+  {
+    "name": "app.debug.profile-method",
+    "type": "java.lang.Boolean",
+    "description": "A description for 'api.security.profileMethod'"
+  },
+  {
+    "name": "app.dao.eclipselink.logging.level",
+    "type": "java.lang.String",
+    "description": "A description for 'eclipselink.logging.level'",
+    "values": [
+      {
+        "value": "OFF",
+        "description": "Disables logging"
+      },
+      {
+        "value": "SEVERE",
+        "description": "Logs exceptions indicating that EclipseLink cannot continue"
+      },
+      {
+        "value": "WARNING",
+        "description": "Logs exceptions that do not force EclipseLink to stop"
+      },
+      {
+        "value": "INFO",
+        "description": "(Default) Logs the login/logout per sever session, including the user name"
+      },
+      {
+        "value": "FINE",
+        "description": "Logs all SQL You may want to use this log level during debugging and testing, but not at production time."
+      },
+      {
+        "value": "FINER",
+        "description": "Similar to WARNING, but includes stack trace"
+      },
+      {
+        "value": "FINEST",
+        "description": "Similar to FINER, but includes additional low level information"
+      },
+      {
+        "value": "ALL",
+        "description": "Logs at the same level as FINEST"
+      },
+      {
+        "value": "CONFIG",
+        "description": "Logs only login, JDBC connection, and database information"
+      }
+    ]
+  }
+]}
